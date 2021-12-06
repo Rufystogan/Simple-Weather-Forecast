@@ -43,7 +43,7 @@ function showWeatherReport(weather){
 
     //changeable icon
 	let locationIcon = document.querySelector('.weather-icon');
-	var icon = ("<img src='static/icon/" + weather.weather[0].icon + ".png'>");
+	var icon = ("<img src='icon/" + weather.weather[0].icon + ".png'>");
 	locationIcon.innerHTML = icon;
 
 	//changeable background
